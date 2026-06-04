@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#05070f">
+    <meta
+      name="description"
+      content="CreateMoments helps you turn photos, videos, music, voice recordings, and shared stories into complete memory videos."
+    >
+    <title>CreateMoments</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;750;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="site-shell">
+      <div class="stars" aria-hidden="true">
+        <span class="star star-large"></span>
+        <span class="star star-a"></span>
+        <span class="star star-b"></span>
+        <span class="star star-c"></span>
+        <span class="star star-d"></span>
+        <span class="star star-e"></span>
+      </div>
+
+      <header class="hero" id="home">
+        <nav class="topbar" aria-label="Language">
+          <a class="home-link" href="#home" aria-label="CreateMoments home">
+            <span class="mini-mark" aria-hidden="true"></span>
+            <span>CreateMoments</span>
+          </a>
+          <div class="language-switch" role="group" aria-label="Choose language">
+            <button type="button" class="lang-button" data-set-lang="en">EN</button>
+            <button type="button" class="lang-button" data-set-lang="de">DE</button>
+          </div>
+        </nav>
+
+        <div class="hero-ring" aria-hidden="true"></div>
+        <h1>CreateMoments</h1>
+      </header>
+
+      <main>
+        <section class="content-panel view is-active" data-view="home">
+          <div class="copy copy-home" data-i18n="homeCopy"></div>
+
+          <div class="store-list" aria-label="App availability">
+            <article class="store-card">
+              <div class="app-icon" aria-hidden="true">
+                <span class="icon-ring"></span>
+                <span class="icon-spark"></span>
+                <span class="person person-left"></span>
+                <span class="person person-center"></span>
+                <span class="person person-right"></span>
+              </div>
+              <div class="store-divider" aria-hidden="true"></div>
+              <div class="store-text">
+                <h2>Android</h2>
+                <p data-i18n="androidStatus"></p>
+              </div>
+            </article>
+
+            <article class="store-card">
+              <div class="app-icon" aria-hidden="true">
+                <span class="icon-ring"></span>
+                <span class="icon-spark"></span>
+                <span class="person person-left"></span>
+                <span class="person person-center"></span>
+                <span class="person person-right"></span>
+              </div>
+              <div class="store-divider" aria-hidden="true"></div>
+              <div class="store-text">
+                <h2>iOS</h2>
+                <p data-i18n="iosStatus"></p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-panel view legal-view" data-view="privacy" tabindex="-1">
+          <a class="back-link" href="#home" data-i18n="backHome"></a>
+          <h2 data-i18n="privacyTitle"></h2>
+          <div class="copy legal-copy" data-i18n="privacyCopy"></div>
+        </section>
+
+        <section class="content-panel view legal-view" data-view="imprint" tabindex="-1">
+          <a class="back-link" href="#home" data-i18n="backHome"></a>
+          <h2 data-i18n="imprintTitle"></h2>
+          <address class="imprint-card">
+            <strong>Milaangi</strong><br>
+            Schenkstraße 23a<br>
+            DE-91522 Ansbach<br>
+            Germany<br>
+            <br>
+            <a href="mailto:info@createmoments.app">info@createmoments.app</a>
+          </address>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <a href="#privacy" data-i18n="privacyLink"></a>
+        <span aria-hidden="true"></span>
+        <a href="#imprint" data-i18n="imprintLink"></a>
+      </footer>
+
+      <div class="wave-field" aria-hidden="true">
+        <span class="wave wave-one"></span>
+        <span class="wave wave-two"></span>
+        <span class="wave wave-three"></span>
+        <span class="wave wave-four"></span>
+        <span class="wave wave-five"></span>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
