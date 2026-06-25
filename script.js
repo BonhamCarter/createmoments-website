@@ -9,7 +9,7 @@ const translations = {
     backHome: 'Back to CreateMoments',
     homeCopy: `
       <p>Do not let your most beautiful moments simply sit there. With CreateMoments, you can easily combine your photos and videos into one complete video.</p>
-      <p>Of course, you can add music. Many apps can do that. But with CreateMoments, you can also tell your own stories for a photo, record comments, and above all trim your videos so people only see what you truly want to show. This creates a special video, and the app is incredibly easy to use.</p>
+      <p>Of course, you can add music. Many apps can do that. But with CreateMoments, you can also tell your own stories for a photo and video, record comments, and above all trim your videos so people only see what you truly want to show. This creates a special video, and the app is incredibly easy to use.</p>
       <p>Instead of sending your friends lots of individual photos and videos, you simply send them one CreateMoments video. That way, they can see and experience everything you want to share with them.</p>
       <p>Turn special moments into a memory video and save it, so you always have a beautiful video of it.</p>
       <p>Whether it is a family celebration, vacation, a performance with your band, a club event, or another special day: with CreateMoments, you create a beautiful and professional video from it.</p>
@@ -80,7 +80,7 @@ const translations = {
     backHome: 'Zurück zu CreateMoments',
     homeCopy: `
       <p>Lass deine schönsten Momente nicht einfach so liegen. Mit CreateMoments kannst du deine Bilder und Videos ganz einfach zu einem vollständigen Video zusammenfügen.</p>
-      <p>Natürlich kannst du Musik hinzufügen, das können viele Apps. Doch bei CreateMoments kannst du zusätzlich deine eigenen Geschichten zu einem Bild erzählen, Kommentare aufnehmen und vor allem deine Videos schneiden, sodass man nur das sieht, was du wirklich zeigen willst. So entsteht ein besonderes Video, und die App ist kinderleicht zu bedienen.</p>
+      <p>Natürlich kannst du Musik hinzufügen, das können viele Apps. Doch bei CreateMoments kannst du zusätzlich deine eigenen Geschichten zu einem Bild und Video erzählen, Kommentare aufnehmen und vor allem deine Videos schneiden, sodass man nur das sieht, was du wirklich zeigen willst. So entsteht ein besonderes Video, und die App ist kinderleicht zu bedienen.</p>
       <p>Statt deinen Freunden viele einzelne Bilder und Videos zu schicken, sendest du ihnen einfach ein CreateMoments-Video. So sehen und erleben sie alles, was du ihnen zeigen möchtest.</p>
       <p>Mach ein Erinnerungsvideo aus besonderen Momenten und speichere es ab, damit du immer ein wunderschönes Video davon hast.</p>
       <p>Egal ob Familienfeier, Urlaub, ein Auftritt mit deiner Band, ein Vereinsfest oder ein anderer besonderer Tag: Mit CreateMoments erstellst du daraus ein schönes und professionelles Video.</p>

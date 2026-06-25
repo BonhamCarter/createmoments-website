@@ -251,6 +251,25 @@ button {
     0 0 2.2rem rgba(187, 98, 255, 0.28);
 }
 
+.app-icon-link {
+  display: block;
+  width: 100%;
+  max-width: 8.2rem;
+  border-radius: 1.05rem;
+  text-decoration: none;
+  transition: transform 160ms ease, filter 160ms ease;
+}
+
+.app-icon-link:hover {
+  transform: translateY(-1px) scale(1.015);
+  filter: brightness(1.08);
+}
+
+.app-icon-link:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.92);
+  outline-offset: 4px;
+}
+
 .store-divider {
   width: 1px;
   min-height: clamp(4.2rem, 10vw, 6.35rem);
